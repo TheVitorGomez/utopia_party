@@ -1,0 +1,55 @@
+.container {
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    min-width: 1024px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.party-name {
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.party-name > img {
+    width: 400px;
+}
+
+.party-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.party-info > span {
+    width: 324px;
+    height: 1px;
+    background-color: #c91d30;
+}
+
+.party-info > h2 {
+    font-size: 28px;
+    font-family: 'Oswald';
+    margin: 8px 0px 8px 0px;
+
+    padding: 0px 16px 0px 16px;
+}
+
+.tickets {
+    margin-bottom: 64px;
+}
+
+.tickets > button {
+    color: white;
+    padding: 20px 40px 20px 40px;
+    background-color: rgba(201, 29, 48, 0.5);
+    border-radius: 18px;
+
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}

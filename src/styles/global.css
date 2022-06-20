@@ -7,3 +7,13 @@
 html {
     font-family: 'inter', sans-serif;
 }
+
+button,
+input,
+a,
+li {
+    text-decoration: none;
+    border: none;
+    color: white;
+    list-style-type: none;
+}
